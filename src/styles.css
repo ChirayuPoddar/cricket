@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #8bc9ed;
+}
+
+body {
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hud-text {
+  text-shadow: 3px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.glass-pill {
+  background: rgba(12, 16, 20, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
