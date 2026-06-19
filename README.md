@@ -31,3 +31,6 @@ VITE_GEMINI_API_KEY=your_key_here
 ```
 
 When no key is present, commentary and narration use arcade template fallbacks, so the game remains fully playable.
+
+live link: https://cricket-woad.vercel.app/
+
